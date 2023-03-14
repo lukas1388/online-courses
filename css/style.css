@@ -93,3 +93,22 @@ html, body {
 }
 
 /* END OF HERO */
+
+/* FEATURES */
+
+.features {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.feature {
+    flex-basis: 33.33333%;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.feature__icon {
+    font-size: 3rem;
+}
+
+/* END OF FEATURES */
