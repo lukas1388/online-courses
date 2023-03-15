@@ -15,6 +15,7 @@ html, body {
 .cta-button {
     min-width: 200px;
     border: none;
+    border-radius: 4px;
     color: #ecf0f1;;
     background-color: #f1c40f;
     font-size: 1.5rem;
@@ -29,8 +30,9 @@ html, body {
 
 .cta-button--big {
     min-width: 250px;
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 1.75rem;
+    padding: .6rem;
+    border-radius: 4px;
 }
 
 /* END OF COMMON */
@@ -166,9 +168,9 @@ html, body {
     text-align: center;
 }
 
-.testimonial__text {
+/* .testimonial__text {
 
-}
+} */
 
 .testimonial__ruler {
     margin: 2rem auto;
@@ -182,9 +184,9 @@ html, body {
     height: 60px;
 }
 
-.testimonial__name {
+/* .testimonial__name {
 
-}
+} */
 
 /* END OF TESTIMONIALS */
 
@@ -265,10 +267,27 @@ html, body {
     background-color: #27ae60;
 }
 
-/* .contact-form__button {
-    background-color: tomato;
-    border-radius: 4px;
-    min-width: 60px;
-} */
-
 /* END OF CONTACT */
+
+/* FOOTER */
+
+.footer {
+    padding-top: 2rem;
+    background-color: #2c3e50;
+    color:#ecf0f1
+}
+
+.footer__header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.footer__copyright {
+    background-color: #212f3d;
+    padding: .1rem;
+    text-align: center;
+}
+
+/* END OF FOOTER */
