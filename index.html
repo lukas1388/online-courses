@@ -100,49 +100,52 @@
 
     </div>
 
-    <div id="contact">
+    <div class="contact" id="contact">
 
-        <div>
-            <h2>Have questions?</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe obcaecati porro ipsum exercitationem alias aspernatur. Aut ratione mollitia odio sint quidem commodi cupiditate dolor dolorum labore, animi aliquam optio facere.</p>
-            <hr>
+        <div class="contact__container container">
 
-            <div>
-                <img src="./img/address.svg" alt="icon-address" width="10">
-                <p>Address XXX</p>
+            <div class="contact__text">
+                <h2 class="contact__header">Have questions?</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe obcaecati porro ipsum exercitationem alias aspernatur. Aut ratione mollitia odio sint quidem commodi cupiditate dolor dolorum labore, animi aliquam optio facere.</p>
+                <hr class="contact__ruler">
+
+                <p class="contact__address-line">
+                    <i class="contact__address-icon fa-solid fa-map-pin"></i>
+                    Address XXX
+                </p>
+
+                <p class="contact__address-line">
+                    <i class="contact__address-icon fa-solid fa-phone"></i>
+                    Phone XXX-XXX-XXX
+                </p>
+
             </div>
 
-            <div>
-                <img src="./img/phone.svg" alt="icon-phone" width="10">
-                <p>Phone XXX-XXX-XXX</p>
-            </div>
-
-        </div>
-
-        <div>
-            <form action="">
-                <div>
-
+            <div class="contact__form">
+                <form class="contact-form" action="https://form-data-to-html-table.examples.coderoad.pl/" method="POST">
                     <div>
-                        <input type="email" placeholder="E-mail">
-                    </div>
 
+                        <div>
+                            <input class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent" name="email" type="email" placeholder="E-mail">
+                        </div>
+
+                        <div>
+                            <input class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent" name="name" type="text" placeholder="Full name">
+                        </div>
+
+                    </div>
+                        
                     <div>
-                        <input type="text" placeholder="Full name">
+                        <textarea class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent" name="message" rows="5" placeholder="Message"></textarea>
                     </div>
-
-                </div>
                     
-                <div>
-                    <textarea name="" rows="5" placeholder="Message"></textarea>
-                </div>
-                
-                <div>
-                    <button>Send</button>
-                </div>
-            </form>
-        </div>
+                    <div>
+                        <button class="contact-form__submit">Send</button>
+                    </div>
+                </form>
+            </div>
 
+        </div>
     </div>
 
     <div id="footer">

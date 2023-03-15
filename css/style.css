@@ -149,7 +149,7 @@ html, body {
 
 .testimonials {
     display: flex;
-    padding-top: 2rem;
+    padding: 2rem 0;
 }
 
 .testimonial-arrow {
@@ -187,3 +187,88 @@ html, body {
 }
 
 /* END OF TESTIMONIALS */
+
+/* CONTACT */
+
+.contact {
+    padding: 3rem 0;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+.contact__container {
+    display: flex;
+}
+
+.contact__header {
+    margin-top: 0;
+}
+
+.contact__ruler {
+    width: 20%;
+    min-width: 100px;
+    margin: 0;
+}
+
+.contact__text, .contact__form {
+    flex-basis: 50%;
+    padding: 0 2rem;
+}
+
+.contact__address-icon {
+    width: 1rem;
+    margin-right: .25rem;
+    text-align: center;
+}
+
+.contact-form {
+    padding: 0 20px;
+    color: #ecf0f1;
+}
+
+.contact-form__input {
+    min-height: 2rem;
+    border-radius: 4px;
+    border: 1px solid #ecf0f1;
+    margin-bottom: 1rem;
+    padding-left: .5rem;
+    box-sizing: border-box;
+    color: #ecf0f1;
+    outline: none;
+}
+
+.contact-form__input::placeholder {
+    color: rgba(236, 240, 241, 0.5);
+}
+
+.contact-form__input--fullwidth {
+    width: 100%;
+}
+
+.contact-form__input--transparent {
+    background-color: transparent;
+}
+
+.contact-form__submit {
+    min-width: 100px;
+    border: none;
+    background-color: #2ecc71;
+    padding: .6rem;
+    border-radius: 4px;
+    color: #ecf0f1;
+    cursor: pointer;
+    transition: background-color .5s ease-in-out;
+    font-size: 1rem;
+}
+
+.contact-form__submit:hover {
+    background-color: #27ae60;
+}
+
+/* .contact-form__button {
+    background-color: tomato;
+    border-radius: 4px;
+    min-width: 60px;
+} */
+
+/* END OF CONTACT */
