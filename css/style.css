@@ -98,7 +98,7 @@ html, body {
 
 .features {
     display: flex;
-    margin-top: 2rem;
+    padding-top: 2rem;
 }
 
 .feature {
@@ -144,3 +144,46 @@ html, body {
 }
 
 /* END OF ABOUT */
+
+/* TESTIMONIALS */
+
+.testimonials {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.testimonial-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 10%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.testimonial {
+    flex-basis: 80%;
+    text-align: center;
+}
+
+.testimonial__text {
+
+}
+
+.testimonial__ruler {
+    margin: 2rem auto;
+    width: 30%;
+    min-width: 200px;
+}
+
+.testimonial__avatar {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.testimonial__name {
+
+}
+
+/* END OF TESTIMONIALS */
